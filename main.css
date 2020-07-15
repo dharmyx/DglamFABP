@@ -1,0 +1,742 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mytextfont {
+    font-family: 'Poppins', sans-serif;
+}
+.mytextfont:hover {
+    text-decoration: underline #222222;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    /*border-color: rgba(0, 0, 0, 0.1);*/
+    border-color: none;
+}
+
+section.intro {
+    height: 100vh;
+    background-image: url(Assets/Homepagebg2.png), url(Assets/Homepagebg2.png);
+    background-position: center right, top right;
+    background-size: 60%, 120%;
+    background-repeat: no-repeat;
+    animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+div.imgLogo {
+    width: 200px;
+    height: 70px;
+    background-image: url(Assets/DglamLogo.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+div.imgLogo:hover {
+    transition: all 1s;
+    transform: scale(1.5);
+}
+div.main-text {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 1.5rem 1rem 0;
+    background-color: rgba(239, 239, 239, 0.7);
+    margin: 7rem auto 0;
+    animation: bounce-in-top 5s ease-in alternate both;
+}
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+
+h1.welcome {
+    font-family: 'Comfortaa', sans-serif;
+}
+p.home {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+div.buttons {
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 0;
+}
+section#about {
+    height: auto;
+    padding: 5rem 0;
+    background-color: #efefef;
+}
+
+.page-info_wrapper,
+.page-info_wrapper2,
+.page-info_wrapper3,
+.page-info_wrapper4 {
+    color: #adadad;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 12rem;
+    margin-left: -1.5rem;
+}
+.page-info_wrapper2 {
+    margin-left: -2.5rem;
+}
+.page-info_wrapper3 {
+    margin-left: -3.5rem;
+}
+.page-info_wrapper4 {
+    margin-left: -2.7rem;
+}
+
+.horizontal-line {
+    height: 1px;
+    background: #adadad;
+    width: 8rem;
+    margin: -1rem 1.5rem 0 .2rem;
+}
+
+p:nth-of-type(2) {
+    color: #000;
+    font-weight: bold;
+}
+h4.about-txt {
+    font-family: 'Poppins', sans-serif;
+    
+}
+p.lorem {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+div.sectionImg {
+    width: 100%;
+    height: 338px;
+    background-image: url(Assets/carouselbg6.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section#products {
+    height: auto;
+    padding: 5rem 0;
+}
+div.myproduct {
+    font-size: .9rem;
+    padding: 1rem 0;
+    width: fit-content;
+    margin: auto;
+}
+div > a.myproductIDs {
+    padding-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+h4.producttxt,
+h4.featuredtxt {
+    font-size: 1rem;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 900;
+}
+p.productvalue,
+p.featuredvalue {
+    font-size: .75rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+div.imgproduct1 {
+    width: 100%;
+    height: 320px;
+    background-image: url(Assets/pr1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.imgproduct2 {
+    width: 100%;
+    height: 320px;
+    background-image: url(Assets/pr2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.imgproduct3 {
+    width: 100%;
+    height: 320px;
+    background-image: url(Assets/pr3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.imgproduct4 {
+    width: 100%;
+    height: 320px;
+    background-image: url(Assets/pr4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.imgproduct5 {
+    width: 100%;
+    height: 320px;
+    background-image: url(Assets/pr5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.imgproduct6 {
+    width: 100%;
+    height: 320px;
+    background-image: url(Assets/pr6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.imgproduct1:hover,
+div.imgproduct2:hover,
+div.imgproduct3:hover,
+div.imgproduct4:hover,
+div.imgproduct5:hover,
+div.imgproduct6:hover {
+    transition: all 2s;
+    transform: scale(1.1);
+}
+div.saleproduct {
+    display: flex;
+}
+div.saleproduct1 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/banner1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(179, 178, 178, .3);
+}
+div.sales-text,
+div.sales-text2 {
+    width: fit-content;
+    height: fit-content;
+    margin: 4rem auto;
+    margin-left: -10rem;
+    padding: 1rem;
+    font-size: .9rem;
+    background-color: #eeeeee;
+    z-index: 1;
+}
+
+div.sales-text2 {
+    margin: 4rem auto;
+    margin-right: -10rem;
+    font-size: .9rem;
+    z-index: 1;
+}
+div.saleproduct2 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(179, 178, 178, .3);
+}
+
+section#featured-items {
+    height: auto;
+    padding: 5rem 0;
+}
+
+div.featureditem1 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/feature1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.featureditem2 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/feature2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.featureditem3 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/feature3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.featureditem4 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/feature4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.featureditem5 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/feature5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.featureditem6 {
+    width: 100%;
+    height: 270px;
+    background-image: url(Assets/feature6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.featureditem1:hover,
+div.featureditem2:hover,
+div.featureditem3:hover,
+div.featureditem4:hover,
+div.featureditem5:hover,
+div.featureditem6:hover {
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.fas {
+    font-size: .8rem;
+    color: #474747;
+}
+i > span {
+    text-align: center;
+    font-size: .8rem;
+    padding: 0 6px;
+    font-family: 'Poppins', sans-serif;
+}
+section#subscribe {
+    height: auto;
+    padding: 5rem 0;
+    background-image: url(Assets/subscribebg20.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div.subscribe-text {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    padding: 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+
+div.subinputdiv {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0 0 0;
+}
+input[type=text] {
+    border-radius: 0;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+}
+button.mysubBtn {
+    border-radius: 0;
+    padding: 10px 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+
+div.ourStoryimg1 {
+    width: 100%;
+    height: 200px;
+    background-image: url(Assets/ourstory1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.ourStoryimg2 {
+    width: 100%;
+    height: 200px;
+    background-image: url(Assets/ourstory2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.ourStoryimg3 {
+    width: 100%;
+    height: 200px;
+    background-image: url(Assets/ourstory3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h5.gallery-text {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+p.gallery-subtext {
+    font-size: .8rem;
+    font-family: 'Poppins', sans-serif;
+}
+a.readbtn {
+    font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+section#footer {
+    background-color: #efefef;
+    padding: 2rem 0 1rem;
+}
+div.footer-items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: ". a b c d .";
+    column-gap: 30px;
+}
+
+div.address-section {
+    grid-area: a;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+div.information-section {
+    grid-area: b;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+div.quicklinks-section {
+    grid-area: c;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+div.payment-section {
+    grid-area: d;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+p > a.myinfotext {
+    font-size: 1rem;
+    text-decoration: none;
+}
+p > a.myinfotext:hover {
+    text-decoration: underline #747474;
+}
+.fa-map-marker-alt, 
+.fa-at, 
+.fa-phone-volume {
+    font-size: 1rem;
+    padding-right: 10px;
+    color: #222222;
+    font-weight: lighter;
+}
+div > i.fab {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+div.logoimg {
+    width: 150px;
+    height: 90px;
+    background-image: url(Assets/DglamLogo.png);
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+div.copyright {
+    display: flex;
+    padding: 2rem 0 0 0;
+}
+div.copyrt > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+div + div.top-links {
+    margin-left: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+
+/*MEDIA QUERRY*/
+
+@media (max-width: 989px) {
+    
+    div.imgLogo {
+        margin: auto;
+    }
+    div.main-text {
+        margin: 9rem auto 0;
+    }
+    .page-info_wrapper {
+        margin-left: -7rem;
+    }
+    .page-info_wrapper2 {
+        margin-left: -8rem;
+    }
+    .page-info_wrapper3 {
+        margin-left: -9rem;
+    }
+    .page-info_wrapper4 {
+        margin-left: -9rem;
+    }
+}
+
+@media (max-width: 850px) {
+    section#subscribe {
+        padding: 3rem 0;
+    }
+    div.subscribe-text {
+        font-size: .75rem;
+    }
+    button.mysubBtn {
+        padding: 7px 2rem;
+        font-size: .75rem;
+    }
+    div.caro-contain {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    div.footer-items {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "a b c d ";
+        column-gap: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .page-info_wrapper,
+    .page-info_wrapper2,
+    .page-info_wrapper3,
+    .page-info_wrapper4 {
+        display: none;
+    }
+    section#subscribe {
+        padding: 2rem 0;
+        background-size: 120%;
+    }
+    div.subscribe-text {
+        width: 85%;
+        font-size: .8rem;
+    }
+    div.caro-contain {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+        padding-top: 1rem !important;
+        padding-bottom: 2rem !important;
+    }
+    div > a.home,
+    div > a.prodct,
+    div > a.blog,
+    div > a.contct {
+        padding-right: 5px !important;
+    }
+    div.address-section,
+    div.information-section,
+    div.quicklinks-section,
+    div.payment-section {
+        font-size: .7rem;
+    }
+    div.copyrt > p {
+        font-size: .7rem;
+    }
+    div + div.top-links {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    div.main-text {
+        margin: 4rem auto 0;
+    }
+    p.home {
+        font-size: 1rem;
+    }
+    a.smallbutn {
+        padding: 0.35rem .8rem;
+        font-size: .9rem;
+        border-radius: 5px;
+    }
+    div.myproduct {
+        font-size: .8rem;
+        padding: .7rem 0;
+    }
+    div > a.myproductIDs {
+        padding-right: .8rem;
+    }
+    section#subscribe {
+        padding: 2rem 0;
+        background-position: left;
+        background-size: 280%;
+    }
+    div.subinputdiv {
+        margin: 1rem 0 0 0;
+    }
+    p.subscribeTxt {
+        color: #fafaf4;
+        background-color: rgb(34, 34, 34, .15);
+    }
+    button.mysubBtn {
+        padding: 7px 1rem;
+        font-size: .7rem;
+    }
+    div.footer-items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "a b"
+        "c d ";
+        column-gap: 20px;
+        padding: 20px;
+    }
+    div.address-section,
+    div.information-section {
+        border-bottom: 1px dashed rgb(117, 116, 116, .3);
+    }
+    div.quicklinks-section,
+    div.payment-section {
+        padding-top: 10px;
+    }
+    div.copyright {
+        display: flex;
+        flex-direction: column;
+    }
+    div.copyrt > p {
+        text-align: center;
+    }
+    div + div.top-links {
+        margin: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    section#subscribe {
+        padding: 2rem 0;
+        background-position: right;
+        background-size: 280%;
+    }
+    div.subscribe-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    div.myproduct {
+        font-size: .7rem;
+        padding: .5rem 0;
+    }
+    div > a.myproductIDs {
+        padding-right: 2px;
+    }
+    section#subscribe {
+        padding: 1.5rem 0;
+        background-position: left;
+        background-size: 280%;
+    }
+    div.footer-items {
+        display: flex;
+        flex-direction: column;
+    }
+    div.address-section {
+        padding-bottom: 10px;
+    }
+    div.information-section {
+        padding-top: 10px;
+    }
+    div.quicklinks-section,
+    div.payment-section {
+        border-bottom: 1px dashed rgb(117, 116, 116, .3);
+    }
+}
+
+@media (max-width: 375px) {
+    section#subscribe {
+        padding: 1.5rem 0;
+        background-position: left;
+        background-size: 280%;
+    }
+    
+}
