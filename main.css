@@ -31,7 +31,7 @@ body {
 
 section.intro {
     height: 100vh;
-    background-image: url(Assets/Homepagebg2figedit.png), url(Assets/Homepagebg2.png);
+    background-image: url(Assets/Homepagebg2.png), url(Assets/Homepagebg2.png);
     background-position: center right, top right;
     background-size: 60%, 120%;
     background-repeat: no-repeat;
@@ -697,6 +697,7 @@ div + div.top-links {
     }
     div + div.top-links {
         margin: auto;
+        padding: 1rem 0;
     }
 }
 
@@ -724,19 +725,25 @@ div + div.top-links {
         background-position: left;
         background-size: 280%;
     }
+    /*
     div.footer-items {
         display: flex;
         flex-direction: column;
-    }
+    }*/
     div.address-section {
         padding-bottom: 10px;
     }
     div.information-section {
         padding-top: 10px;
+        text-align: right;
     }
     div.quicklinks-section,
     div.payment-section {
         border-bottom: 1px dashed rgb(117, 116, 116, .3);
+        text-align: left;
+    }
+    div.payment-section {
+      text-align: right;
     }
 }
 
