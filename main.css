@@ -267,6 +267,8 @@ div.imgproduct6 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*
 div.imgproduct1:hover,
 div.imgproduct2:hover,
 div.imgproduct3:hover,
@@ -276,6 +278,8 @@ div.imgproduct6:hover {
     transition: all 2s;
     transform: scale(1.1);
 }
+*/
+
 div.saleproduct {
     display: flex;
 }
@@ -369,6 +373,8 @@ div.featureditem6 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*
 div.featureditem1:hover,
 div.featureditem2:hover,
 div.featureditem3:hover,
@@ -378,6 +384,8 @@ div.featureditem6:hover {
     transition: all 2s;
     transform: scale(1.1);
 }
+*/
+
 .fas {
     font-size: .8rem;
     color: #474747;
