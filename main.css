@@ -31,7 +31,7 @@ body {
 
 section.intro {
     height: 100vh;
-    background-image: url(Assets/Homepagebg2figedit.png), url(Assets/Homepagebg2.png);
+    background-image: url(Assets/Homepagebg2.jpg), url(Assets/Homepagebg2.jpg);
     background-position: center right, top right;
     background-size: 60%, 120%;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ p.lorem {
 div.sectionImg {
     width: 100%;
     height: 338px;
-    background-image: url(Assets/carouselbg6.png);
+    background-image: url(Assets/carouselbg6.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -222,7 +222,7 @@ p.featuredvalue {
 div.imgproduct1 {
     width: 100%;
     height: 320px;
-    background-image: url(Assets/pr1.png);
+    background-image: url(Assets/pr1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@ div.imgproduct1 {
 div.imgproduct2 {
     width: 100%;
     height: 320px;
-    background-image: url(Assets/pr2.png);
+    background-image: url(Assets/pr2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ div.imgproduct2 {
 div.imgproduct3 {
     width: 100%;
     height: 320px;
-    background-image: url(Assets/pr3.png);
+    background-image: url(Assets/pr3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -246,7 +246,7 @@ div.imgproduct3 {
 div.imgproduct4 {
     width: 100%;
     height: 320px;
-    background-image: url(Assets/pr4.png);
+    background-image: url(Assets/pr4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ div.imgproduct4 {
 div.imgproduct5 {
     width: 100%;
     height: 320px;
-    background-image: url(Assets/pr5.png);
+    background-image: url(Assets/pr5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,7 +262,7 @@ div.imgproduct5 {
 div.imgproduct6 {
     width: 100%;
     height: 320px;
-    background-image: url(Assets/pr6.png);
+    background-image: url(Assets/pr6.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ div.saleproduct {
 div.saleproduct1 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/banner1.png);
+    background-image: url(Assets/banner1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -313,7 +313,7 @@ div.sales-text2 {
 div.saleproduct2 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/banner2.png);
+    background-image: url(Assets/banner2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -328,7 +328,7 @@ section#featured-items {
 div.featureditem1 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/feature1.png);
+    background-image: url(Assets/feature1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -336,7 +336,7 @@ div.featureditem1 {
 div.featureditem2 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/feature2.png);
+    background-image: url(Assets/feature2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ div.featureditem2 {
 div.featureditem3 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/feature3.png);
+    background-image: url(Assets/feature3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ div.featureditem3 {
 div.featureditem4 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/feature4.png);
+    background-image: url(Assets/feature4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -360,7 +360,7 @@ div.featureditem4 {
 div.featureditem5 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/feature5.png);
+    background-image: url(Assets/feature5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -368,7 +368,7 @@ div.featureditem5 {
 div.featureditem6 {
     width: 100%;
     height: 270px;
-    background-image: url(Assets/feature6.png);
+    background-image: url(Assets/feature6.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -399,7 +399,7 @@ i > span {
 section#subscribe {
     height: auto;
     padding: 5rem 0;
-    background-image: url(Assets/subscribebg20.jpg);
+    background-image: url(Assets/subscribebg2.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -434,7 +434,7 @@ button.mysubBtn {
 div.ourStoryimg1 {
     width: 100%;
     height: 200px;
-    background-image: url(Assets/ourstory1.png);
+    background-image: url(Assets/ourstory1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -443,7 +443,7 @@ div.ourStoryimg1 {
 div.ourStoryimg2 {
     width: 100%;
     height: 200px;
-    background-image: url(Assets/ourstory2.png);
+    background-image: url(Assets/ourstory2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -452,7 +452,7 @@ div.ourStoryimg2 {
 div.ourStoryimg3 {
     width: 100%;
     height: 200px;
-    background-image: url(Assets/ourstory3.png);
+    background-image: url(Assets/ourstory3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
